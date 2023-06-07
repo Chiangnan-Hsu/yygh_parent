@@ -27,7 +27,7 @@
         <alibaba.version>2.2.0.RELEASE</alibaba.version>
         <mybatis-plus.version>3.3.1</mybatis-plus.version>
         <mysql.version>8.0.30</mysql.version>
-        <swagger.version>2.7.0</swagger.version>
+        <swagger.version>2.9.2</swagger.version>
         <jwt.version>0.7.0</jwt.version>
         <fastjson.version>1.2.29</fastjson.version>
         <httpclient.version>4.5.1</httpclient.version>
@@ -127,19 +127,6 @@
         </dependencies>
     </dependencyManagement>
 
-<!--    <dependencies>-->
-<!--        <dependency>-->
-<!--            <groupId>com.aliyun</groupId>-->
-<!--            <artifactId>aliyun-java-sdk-core</artifactId>-->
-<!--            <version>4.5.30</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>com.aliyun.oss</groupId>-->
-<!--            <artifactId>aliyun-sdk-oss</artifactId>-->
-<!--            <version>3.10.2</version>-->
-<!--        </dependency>-->
-<!--    </dependencies>-->
 
     <!-- 项目打包时会将java目录中的*.xml文件也进行打包 -->
     <build>

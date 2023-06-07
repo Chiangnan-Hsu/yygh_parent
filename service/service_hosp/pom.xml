@@ -17,7 +17,18 @@
     </properties>
 
     <dependencies>
-
+        <!--引入实体类所在模块服务-->
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!--引入swagger所在模块服务-->
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>service_util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
